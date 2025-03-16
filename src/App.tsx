@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { useSelector } from "react-redux";
+import Home from "./Pages/Dashoboard";
+import { Route, Routes } from "react-router-dom";
+import InfoProducts from "./Pages/InfoProducts";
+import {Login} from "./Pages/Login/Login";
+import Dashoboard from "./Pages/Dashoboard";
+import Cadastrar from "./Pages/Cadastrar/Cadastrar";
+import { Cart } from "./components/Cart/Cart";
+import { RootReducer } from "./redux/root-reducer";
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Routes>
+        <Route path="/" element={<Dashoboard/>}></Route>
+        <Route path="/cadastrar" element={<Cadastrar />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/products/:id" element={<InfoProducts />}></Route>
+        <Route path="/cart" element={<Cart isShowCart={true}/>}></Route>
+      </Routes>
   );
 }
 
