@@ -1,0 +1,164 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Laptop HP",
+            "preco": 2599.99,
+            "peso": 2.5,
+            "altura": 2.0,
+            "largura": 35.0,
+            "comprimento": 25.0,
+            "descricao": "Laptop HP com 16GB de RAM e 512GB SSD, ideal para jogos e produtividade.",
+            "avaliacao": {
+                "rate": 4.7,
+                "counter": 102
+            },
+            "quantidade_estoque": 10,
+            "imagem": "https://i.imgur.com/3D6nH7W.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Camiseta Nike",
+            "preco": 99.99,
+            "peso": 0.2,
+            "altura": 1.0,
+            "largura": 10.0,
+            "comprimento": 15.0,
+            "descricao": "Camiseta de algodão da Nike, confortável para o dia a dia.",
+            "avaliacao": {
+                "rate": 4.5,
+                "counter": 150
+            },
+            "quantidade_estoque": 50,
+            "imagem": "https://i.imgur.com/KvDz7ta.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Smartphone Samsung",
+            "preco": 1799.99,
+            "peso": 0.25,
+            "altura": 0.8,
+            "largura": 7.5,
+            "comprimento": 15.0,
+            "descricao": "Smartphone Samsung Galaxy com 128GB de armazenamento e câmera de 48MP.",
+            "avaliacao": {
+                "rate": 4.6,
+                "counter": 300
+            },
+            "quantidade_estoque": 30,
+            "imagem": "https://i.imgur.com/5qGgmUz.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Tênis Adidas",
+            "preco": 199.99,
+            "peso": 0.7,
+            "altura": 10.0,
+            "largura": 25.0,
+            "comprimento": 30.0,
+            "descricao": "Tênis Adidas, modelo para corrida, confortável e resistente.",
+            "avaliacao": {
+                "rate": 4.8,
+                "counter": 200
+            },
+            "quantidade_estoque": 75,
+            "imagem": "https://i.imgur.com/0vYy2c7.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "Fone de Ouvido Bose",
+            "preco": 399.99,
+            "peso": 0.3,
+            "altura": 6.0,
+            "largura": 15.0,
+            "comprimento": 18.0,
+            "descricao": "Fone de ouvido com cancelamento de ruído, ideal para viagens e concentração.",
+            "avaliacao": {
+                "rate": 4.9,
+                "counter": 120
+            },
+            "quantidade_estoque": 20,
+            "imagem": "https://i.imgur.com/2pATiHp.jpg"
+        },
+        {
+            "id": 6,
+            "nome": "Câmera Digital",
+            "preco": 899.90,
+            "peso": 0.4,
+            "altura": 10,
+            "largura": 12,
+            "comprimento": 7,
+            "descricao": "Câmera digital de alta resolução para fotos e vídeos profissionais.",
+            "avaliacao": {
+                "rate": 4.6,
+                "counter": 95
+            },
+            "quantidade_estoque": 25,
+            "imagem": "https://i.imgur.com/FLvbT4X.jpg"
+        },
+        {
+            "id": 7,
+            "nome": "Cafeteira Elétrica",
+            "preco": 129.99,
+            "peso": 1.5,
+            "altura": 30.0,
+            "largura": 15.0,
+            "comprimento": 20.0,
+            "descricao": "Cafeteira elétrica com capacidade para 12 xícaras, perfeita para café forte.",
+            "avaliacao": {
+                "rate": 4.4,
+                "counter": 80
+            },
+            "quantidade_estoque": 40,
+            "imagem": "https://i.imgur.com/1l2C5Lg.jpg"
+        },
+        {
+            "id": 8,
+            "nome": "Geladeira Brastemp",
+            "preco": 2999.90,
+            "peso": 60.0,
+            "altura": 170.0,
+            "largura": 70.0,
+            "comprimento": 70.0,
+            "descricao": "Geladeira Brastemp, 2 portas, ideal para famílias grandes.",
+            "avaliacao": {
+                "rate": 4.7,
+                "counter": 120
+            },
+            "quantidade_estoque": 15,
+            "imagem": "https://i.imgur.com/Yb81Oul.jpg"
+        },
+        {
+            "id": 9,
+            "nome": "Micro-ondas LG",
+            "preco": 899.99,
+            "peso": 12.0,
+            "altura": 30.0,
+            "largura": 50.0,
+            "comprimento": 50.0,
+            "descricao": "Micro-ondas LG com função grill e 20L de capacidade.",
+            "avaliacao": {
+                "rate": 4.5,
+                "counter": 110
+            },
+            "quantidade_estoque": 22,
+            "imagem": "https://i.imgur.com/V1lAYFq.jpg"
+        },
+        {
+            "id": 10,
+            "nome": "Ar Condicionado Split",
+            "preco": 1799.90,
+            "peso": 25.0,
+            "altura": 35.0,
+            "largura": 80.0,
+            "comprimento": 50.0,
+            "descricao": "Ar condicionado split com 12.000 BTUs, ideal para ambientes de até 20m².",
+            "avaliacao": {
+                "rate": 4.6,
+                "counter": 70
+            },
+            "quantidade_estoque": 12,
+            "imagem": "https://i.imgur.com/PZ0pYjA.jpg"
+        }
+    ]
+}

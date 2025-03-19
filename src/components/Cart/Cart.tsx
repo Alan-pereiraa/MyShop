@@ -18,7 +18,7 @@ export const Cart: React.FC<Cart> = ({ isShowCart }) => {
 
 
   const totalCartProduct = ProductFromCart?.reduce((totalCart, productValue) => {
-    return totalCart + productValue.price;
+    return totalCart + productValue.preco;
   }, 0);
 
   function RemoveToCartItem (product: Produto) {
@@ -39,7 +39,7 @@ export const Cart: React.FC<Cart> = ({ isShowCart }) => {
       <S.CartProductList>
         {ProductFromCart?.map((product) => (
           <S.CartProductItem key={product.id}>
-            <S.ProductTitle>{product.title}</S.ProductTitle> - $ {product.price}
+            <S.ProductTitle>{product.nome}</S.ProductTitle> - $ {product.preco}
             <S.ButtonToCart>
               <BiTrash></BiTrash>
             </S.ButtonToCart>

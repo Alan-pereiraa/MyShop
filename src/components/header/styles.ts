@@ -4,9 +4,9 @@ export const StyleHeader = styled.header`
     background-color: navy;
     padding: 1rem;
     width: 100%;
+    margin-bottom: 2rem;
 
-    position: fixed;
-    top: 0;
+    position: sticky;
 `;
 
 export const Wrapper = styled.div`

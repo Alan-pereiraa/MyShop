@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./styles";
 import { useDispatch, useSelector } from "react-redux";
-import { RootReducer, rootReducer } from "../../redux/root-reducer";
+import { RootReducer } from "../../redux/root-reducer";
 import {
-  productsSilce,
   updateProducts,
 } from "../../redux/Products/product-slice";
 import { setSelectdCategory } from "../../redux/Category/category-slice";
@@ -29,7 +28,7 @@ export const Collections: React.FC = () => {
   function searchCategoryProduct(category: string) {
 
     const collections = products.filter(
-      (product) => product.category == category
+      (product) => product.categoria == category
     );
 
     dispatch(updateProducts(collections));

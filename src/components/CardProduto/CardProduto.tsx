@@ -36,19 +36,19 @@ export const ProductCard: React.FC<ProductCard> = ({ product }) => {
   return (
     <>
       <S.Card>
-        <S.ProductImg src={product.image} alt={product.description} />
-        <S.ProductTitle onClick={handleNavigateToProducts}>{product.title}</S.ProductTitle>
+        <S.ProductImg src={product.image} alt={product.descricao} />
+        <S.ProductTitle onClick={handleNavigateToProducts}>{product.nome}</S.ProductTitle>
         <S.ReviewPriceContainer>
           <S.Review>
             {Array.from({ length: 5 }).map((_, index) =>
-              index < Math.round(product.rating.rate) ? (
+              index < Math.round(product.avaliacao.rate) ? (
                 <AiFillStar key={index} />
               ) : (
                 <AiOutlineStar key={index} />
               )
             )}
           </S.Review>
-          <S.Price>R${product.price}</S.Price>
+          <S.Price>R${product.preco}</S.Price>
         </S.ReviewPriceContainer>
         <S.AddToCartButtonWrapper>
           {isProductOnCart ? (

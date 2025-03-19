@@ -9,11 +9,10 @@ import { RootReducer } from "../../redux/root-reducer";
 import { logoutUser } from "../../redux/User/user-slice";
 import { Cart } from "../Cart/Cart";
 import { useNavigate } from "react-router";
-import { Collections } from "../collections/collections";
-
+import { Collections } from "../Categoria/Categoria";
 
 export const Header: React.FC = () => {
-  const  userLogged  = useSelector(
+  const userLogged = useSelector(
     (rootReducer: RootReducer) => rootReducer.userReducer.loggedUser
   );
 
@@ -22,12 +21,11 @@ export const Header: React.FC = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-
   function goToLogin() {
-    if(!isLogged){
-      navigate("/login")
-    }else{
-      dispatch(logoutUser(userLogged))
+    if (!isLogged) {
+      navigate("/login");
+    } else {
+      dispatch(logoutUser(userLogged));
     }
   }
 
@@ -57,27 +55,34 @@ export const Header: React.FC = () => {
             </S.CartButton>
           </S.ButtonWrapper>
           <S.Perfil>
-              <IoMdContact style={{
+            <IoMdContact
+              style={{
                 width: "15%",
                 height: "20%",
                 color: "white",
                 maxWidth: "20%",
-              }}/>
-              <S.UserPerfil defaultValue={userLogged?.name}>
-                {isLogged ? (
-                  <>
-                    <S.OptionUserPerfil value={userLogged.name}>{userLogged.name}</S.OptionUserPerfil>
-                    <S.OptionUserPerfil value="Editar dados">Editar dados cadastrais</S.OptionUserPerfil>
-                  </>
-                ) : (
-                  <S.OptionUserPerfil value="Convidado">Convidado</S.OptionUserPerfil>
-                )}
-              </S.UserPerfil>
-            </S.Perfil>
+              }}
+            />
+            <S.UserPerfil defaultValue={userLogged?.name}>
+              {isLogged ? (
+                <>
+                  <S.OptionUserPerfil value={userLogged.name}>
+                    {userLogged.name}
+                  </S.OptionUserPerfil>
+                  <S.OptionUserPerfil value="Editar dados">
+                    Editar dados cadastrais
+                  </S.OptionUserPerfil>
+                </>
+              ) : (
+                <S.OptionUserPerfil value="Convidado">
+                  Convidado
+                </S.OptionUserPerfil>
+              )}
+            </S.UserPerfil>
+          </S.Perfil>
         </S.Wrapper>
-        <Collections></Collections>
 
-        <Cart isShowCart={showCart}/>
+        <Cart isShowCart={showCart} />
       </S.StyleHeader>
     </>
   );

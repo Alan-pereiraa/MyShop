@@ -32,17 +32,17 @@ const Modal: React.FC<OpenModal> = ({ closeModal, setCloseModal, Product }) => {
                         <S.InfoModal>                
                             <S.ContainerTextModal>
 
-                                <S.TitleModal>{Product.title}</S.TitleModal>
+                                <S.TitleModal>{Product.nome}</S.TitleModal>
                                 <S.Review>
                                     {Array.from({ length: 5 }).map((_, index) =>
-                                        index < Math.round(Product.rating.rate) ? (
+                                        index < Math.round(Product.avaliacao.rate) ? (
                                         <AiFillStar key={index} />
                                         ) : (
                                         <AiOutlineStar key={index} />
                                         )
                                                 )}
                                 </S.Review>
-                                <S.PriceModal>{Product.price}</S.PriceModal>
+                                <S.PriceModal>{Product.preco}</S.PriceModal>
                             </S.ContainerTextModal>
 
                             <S.FormModal>
