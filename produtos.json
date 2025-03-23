@@ -4,49 +4,52 @@
             "id": 1,
             "nome": "Laptop HP",
             "preco": 2599.99,
-            "peso": 2.5,
-            "altura": 2.0,
-            "largura": 35.0,
-            "comprimento": 25.0,
+            "peso": "2.5",
+            "altura": "2.0",
+            "largura": "35.0",
+            "comprimento": "25.0",
             "descricao": "Laptop HP com 16GB de RAM e 512GB SSD, ideal para jogos e produtividade.",
             "avaliacao": {
                 "rate": 4.7,
                 "counter": 102
             },
             "quantidade_estoque": 10,
-            "imagem": "https://i.imgur.com/3D6nH7W.jpg"
+            "imagem": "https://i.imgur.com/3D6nH7W.jpg",
+            "cep_origem": "85162000"
         },
         {
             "id": 2,
             "nome": "Camiseta Nike",
             "preco": 99.99,
-            "peso": 0.2,
-            "altura": 1.0,
-            "largura": 10.0,
-            "comprimento": 15.0,
+            "peso": "0.2",
+            "altura": "1.0",
+            "largura": "10.0",
+            "comprimento": "15.0",
             "descricao": "Camiseta de algodão da Nike, confortável para o dia a dia.",
             "avaliacao": {
                 "rate": 4.5,
                 "counter": 150
             },
             "quantidade_estoque": 50,
-            "imagem": "https://i.imgur.com/KvDz7ta.jpg"
+            "imagem": "https://i.imgur.com/KvDz7ta.jpg",
+            "cep_origem": "85162000"
         },
         {
             "id": 3,
             "nome": "Smartphone Samsung",
             "preco": 1799.99,
-            "peso": 0.25,
-            "altura": 0.8,
-            "largura": 7.5,
-            "comprimento": 15.0,
+            "peso": "0.25",
+            "altura": "0.8",
+            "largura": "7.5",
+            "comprimento": "15.0",
             "descricao": "Smartphone Samsung Galaxy com 128GB de armazenamento e câmera de 48MP.",
             "avaliacao": {
                 "rate": 4.6,
                 "counter": 300
             },
             "quantidade_estoque": 30,
-            "imagem": "https://i.imgur.com/5qGgmUz.jpg"
+            "imagem": "https://i.imgur.com/5qGgmUz.jpg",
+            "cep_origem": "85162000"
         },
         {
             "id": 4,
@@ -62,7 +65,8 @@
                 "counter": 200
             },
             "quantidade_estoque": 75,
-            "imagem": "https://i.imgur.com/0vYy2c7.jpg"
+            "imagem": "https://i.imgur.com/0vYy2c7.jpg",
+            "cep_origem": "85162000"
         },
         {
             "id": 5,
@@ -78,7 +82,8 @@
                 "counter": 120
             },
             "quantidade_estoque": 20,
-            "imagem": "https://i.imgur.com/2pATiHp.jpg"
+            "imagem": "https://i.imgur.com/2pATiHp.jpg",
+            "cep_origem": "85162000"
         },
         {
             "id": 6,
@@ -94,7 +99,8 @@
                 "counter": 95
             },
             "quantidade_estoque": 25,
-            "imagem": "https://i.imgur.com/FLvbT4X.jpg"
+            "imagem": "https://i.imgur.com/FLvbT4X.jpg",
+            "cep_origem": "85162000"
         },
         {
             "id": 7,
@@ -110,7 +116,8 @@
                 "counter": 80
             },
             "quantidade_estoque": 40,
-            "imagem": "https://i.imgur.com/1l2C5Lg.jpg"
+            "imagem": "https://i.imgur.com/1l2C5Lg.jpg",
+            "cep_origem": "85162000"
         },
         {
             "id": 8,
@@ -126,7 +133,8 @@
                 "counter": 120
             },
             "quantidade_estoque": 15,
-            "imagem": "https://i.imgur.com/Yb81Oul.jpg"
+            "imagem": "https://i.imgur.com/Yb81Oul.jpg",
+            "cep_origem": "85162000"
         },
         {
             "id": 9,
@@ -142,7 +150,8 @@
                 "counter": 110
             },
             "quantidade_estoque": 22,
-            "imagem": "https://i.imgur.com/V1lAYFq.jpg"
+            "imagem": "https://i.imgur.com/V1lAYFq.jpg",
+            "cep_origem": "85162000"
         },
         {
             "id": 10,
@@ -158,7 +167,8 @@
                 "counter": 70
             },
             "quantidade_estoque": 12,
-            "imagem": "https://i.imgur.com/PZ0pYjA.jpg"
+            "imagem": "https://i.imgur.com/PZ0pYjA.jpg",
+            "cep_origem": "85162000"
         }
     ]
 }

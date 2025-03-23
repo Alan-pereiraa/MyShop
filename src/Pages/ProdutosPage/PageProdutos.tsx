@@ -8,6 +8,7 @@ import { useSelector } from "react-redux";
 import { RootReducer } from "../../redux/root-reducer";
 import { Header } from "../../components/header/header";
 import { GlobalStyles } from "../../styles/GlobalStyles";
+import { CalcularFrete } from "../../components/CalcularFrete/CalcularFrete";
 
 export const PageProdutos: React.FC = () => {
 
@@ -50,13 +51,7 @@ export const PageProdutos: React.FC = () => {
               </S.ReviewProduct>
               <S.PriceProduct>R${product.preco}</S.PriceProduct>
             </S.InfoProducts>
-            <S.ContainerFrete>
-              <S.containerInputLabel>
-                <S.LabelFrete>Calcular Frete</S.LabelFrete>
-                <S.Inputfrete></S.Inputfrete>
-              </S.containerInputLabel>
-              <S.ButtonGetFrete>Calcular</S.ButtonGetFrete>
-            </S.ContainerFrete>
+            <CalcularFrete product={product}></CalcularFrete>
             <S.ButtonsProduct>
               <S.ButtonAddToCart
                 onClick={() => {

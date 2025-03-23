@@ -16,6 +16,7 @@ export interface Produto {
     counter: number;
   };
   quantidade_estoque: number;
+  cep_origem: string;
 }
 
 export interface ProductList {

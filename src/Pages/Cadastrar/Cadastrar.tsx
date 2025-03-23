@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import * as S from "./style";
 import * as L from "../Login/style";
+
 import { GlobalStyles } from "../../styles/GlobalStyles";
 import { FcGoogle } from "react-icons/fc";
 import { BsEyeSlashFill, BsFillEyeFill } from "react-icons/bs";
